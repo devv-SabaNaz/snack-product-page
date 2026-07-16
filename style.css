@@ -3,96 +3,110 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body{
     font-family: 'Bree Serif', sans-serif;
     background-color: #f8f8f8;
 }
+
 .nav-bar{
-    display: flex;   
-    align-items: center;    
+    display: flex;
+    align-items: center;
     background-color: #86775F;
-    padding: 15px 40px;    
+    padding: 10px 15px;
 }
-.logo img{    
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;    
+
+.logo img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
 }
-.brandname{
-    text-align: center;
+
+.brandname h2{
+    font-size: 26px;
+    color: white;
+    margin-left: 100px;
 }
-.brandname h2{     
-    font-size: 30px;
-    color:white; 
-       
-}
+
 main h2{
-    margin: 25px;
-    text-align: center;   
+    text-align: center;
+    margin: 20px;
+    font-size: 28px;
 }
+
 .product-section{
     display: flex;
     flex-direction: column;
-    gap: 20px;
-    padding: 15px;
+    gap: 15px;
+    padding: 10px;
 }
+
 .product{
-    display: flex;    
+    display: flex;
     align-items: center;
     background-color: white;
     border-radius: 10px;
-    padding: 15px;    
+    padding: 10px;
 }
+
 .product img{
-    height: 150px;
-    width: 150px;
-    border-radius: 8px;    
+    height: 90px;
+    width: 90px;
+    border-radius: 8px;
 }
 
 .product-details{
-    margin-left: 30px;
+    margin-left: 20px;
 }
-.product-details h3{    
-    font-size: 28px;
-    margin-bottom: 10px;    
+
+.product-details h3{
+    font-size: 22px;
+    margin-bottom: 8px;
     color: #333;
 }
+
 .flavour{
-    font-size: 15px;
-   color: #000;
+    font-size: 14px;
+    color: #000;
     font-style: italic;
-    margin-bottom: 8px;
+    margin-bottom: 6px;
 }
+
 .price{
-    font-size: 15px;    
+    font-size: 14px;
     font-weight: bold;
-    color:black; 
-    margin-bottom: 12px;   
+    color: black;
+    margin-bottom: 10px;
 }
+
 button{
     background-color: #DBC49E;
     color: black;
     border: none;
-    padding: 10px;
+    padding: 8px 15px;
     border-radius: 5px;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: bold;
     cursor: pointer;
     transition: all 0.3s ease;
 }
-button:hover{    
-    background-color: #7a5f2e;
+
+button:hover{
+    background-color: #7A5F2E;
     color: white;
     transform: scale(1.1);
 }
+
 footer{
-    background-color:#917b59;
+    background-color: #917B59;
     text-align: center;
-    padding: 30px;
-    margin-top: 40px;
-    font-size: 18px;
-    font-weight: bold;    
+    padding: 20px;
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: bold;
 }
-.footer a{
+
+footer a{
     color: #DBC49E;
+    text-decoration: none;
 }
