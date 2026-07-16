@@ -1,1 +1,109 @@
-
+*{
+    margin: 10px;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f8f8f8;
+}
+.nav-bar{
+    display: flex;   
+    align-items: center;
+    justify-content: space-between;
+    background-color: #86775F;
+    padding: 15px 40px;    
+}
+.logo img{    
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;    
+}
+.brandname{
+    flex: 1;
+    text-align: center;
+}
+.brandname h2{    
+       font-family: 'Lobster', cursive;
+    font-weight: bold;
+    font-size: 40px;
+    color:white; 
+       
+}
+main h2{
+    margin: 25px 0;
+    text-align: center;   
+}
+.product-section{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 20px;
+}
+.product{
+    display: flex;    
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.2) ;
+}
+.product img{
+    height: 150px;
+    width: 150px;
+    border-radius: 8px;
+    transition: transform 0.4s ease;
+}
+.product img:hover{
+  transform: scale(1.1);
+} 
+.product-details{
+    margin-left: 30px;
+}
+.product-details h3{    
+    font-size: 28px;
+    margin-bottom: 10px;    
+    color: #333;
+}
+.flavour{
+    font-size: 18px;
+   color: #000;
+    font-style: italic;
+    margin-bottom: 8px;
+}
+.price{
+    font-size: 18px;    
+    font-weight: bold;
+    color:black; 
+    margin-bottom: 12px;   
+}
+button{
+    background-color: #dbc49e;
+    color: black;    
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+button:hover{    
+    background-color: #7a5f2e;
+    color: white;
+    transform: scale(1.1);
+}
+footer{
+    background-color:#917b59;
+    text-align: center;
+    padding: 30px;
+    margin-top: 40px;
+    font-size: 18px;
+    font-weight: bold;    
+}
+.footer a{
+    color: #DBC49E;
+}
+footer a:hover{
+    text-decoration: underline;
+    color: white;
+}
