@@ -4,13 +4,12 @@
     box-sizing: border-box;
 }
 body{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Bree Serif', sans-serif;
     background-color: #f8f8f8;
 }
 .nav-bar{
     display: flex;   
-    align-items: center;
-    justify-content: space-between;
+    align-items: center;    
     background-color: #86775F;
     padding: 15px 40px;    
 }
@@ -23,10 +22,8 @@ body{
     flex: 1;
     text-align: center;
 }
-.brandname h2{    
-       font-family: 'Lobster', cursive;
-    font-weight: bold;
-    font-size: 40px;
+.brandname h2{  
+    font-size: 30px;
     color:white; 
        
 }
@@ -38,7 +35,7 @@ main h2{
     display: flex;
     flex-direction: column;
     gap: 20px;
-    padding: 0 20px;
+    padding: 15px 10px;
 }
 .product{
     display: flex;    
@@ -66,20 +63,21 @@ main h2{
     color: #333;
 }
 .flavour{
-    font-size: 18px;
+    font-size: 15px;
    color: #000;
     font-style: italic;
     margin-bottom: 8px;
 }
 .price{
-    font-size: 18px;    
+    font-size: 15px;    
     font-weight: bold;
     color:black; 
     margin-bottom: 12px;   
 }
 button{
-    background-color: #dbc49e;
-    color: black;    
+    background-color: #DBC49E;
+    color: black;
+    border: none;
     padding: 10px 20px;
     border-radius: 5px;
     font-size: 16px;
@@ -102,8 +100,4 @@ footer{
 }
 .footer a{
     color: #DBC49E;
-}
-footer a:hover{
-    text-decoration: underline;
-    color: white;
 }
