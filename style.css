@@ -1,6 +1,6 @@
 *{
     margin: 0;
-    padding: 2px;
+    padding: 0;
     box-sizing: border-box;
 }
 body{
@@ -19,41 +19,36 @@ body{
     border-radius: 50%;    
 }
 .brandname{
-    flex: 1;
     text-align: center;
 }
-.brandname h2{  
+.brandname h2{     
     font-size: 30px;
     color:white; 
        
 }
 main h2{
-    margin: 25px 0;
+    margin: 25px;
     text-align: center;   
 }
 .product-section{
     display: flex;
     flex-direction: column;
     gap: 20px;
-    padding: 15px 10px;
+    padding: 15px;
 }
 .product{
     display: flex;    
     align-items: center;
     background-color: white;
     border-radius: 10px;
-    padding: 15px;
-    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.2) ;
+    padding: 15px;    
 }
 .product img{
     height: 150px;
     width: 150px;
-    border-radius: 8px;
-    transition: transform 0.4s ease;
+    border-radius: 8px;    
 }
-.product img:hover{
-  transform: scale(1.1);
-} 
+
 .product-details{
     margin-left: 30px;
 }
@@ -78,7 +73,7 @@ button{
     background-color: #DBC49E;
     color: black;
     border: none;
-    padding: 10px 20px;
+    padding: 10px;
     border-radius: 5px;
     font-size: 16px;
     font-weight: bold;
